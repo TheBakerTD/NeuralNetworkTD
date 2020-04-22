@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[340]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as anim
@@ -90,15 +84,8 @@ def iterate(input_data, weight_x, weight_y, iteration_count,learning_rate):
 test=training_data(25)
 #plt.plot(test)
 out1,out2=iterate(test,5.,-1.,50,0.01)
+#plt.plot(out1)
 
-
-# In[341]:
-
-
-plt.plot(out1)
-
-
-# In[ ]:
 
 
 
